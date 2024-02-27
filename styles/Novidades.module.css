@@ -1,0 +1,63 @@
+.novidades{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1rem;
+    color: var(--text-blue);
+
+}
+
+.novidades .textos{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    gap: 0.5rem;
+}
+
+.novidades h2{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6875rem;
+    letter-spacing: 0em;
+}
+
+.novidades p{
+    font-weight: 300;
+}
+
+.novidades input{
+    width: 100%;
+    max-width: 25rem;
+    height: 2.75rem;
+    padding: 10px 24px;
+    border-radius: 1.5rem;
+    /* border: 1px; */
+    gap: 10px;
+    border: 1px solid var(--text-blue);
+    display: flex;
+    align-items: center;
+    outline: none;
+    background-position: left;
+    /* background-size: 1.3em; */
+}
+
+.novidades input::placeholder{
+    color: var(--text-blue);
+    background: url('/imagens/email.svg') no-repeat;
+    padding-left: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .novidades h2{
+        font-size: 1.5rem;
+    }
+
+    .novidades{
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+}

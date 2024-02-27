@@ -1,0 +1,140 @@
+@import url('/../app/globals.css');
+
+
+.ultimos_lancamentos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.ultimos_lancamentos h2{
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.ultimos_lancamentos .swiper{
+    width: 100%;
+    height: max-content;
+}
+
+.ultimos_lancamentos .swiper-pagination{
+    background-color: var(--cor-principal);
+}
+
+.carrossel{
+    padding: 1.25rem 0 ;
+    background-color: var(--cor-gray);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1.25rem;
+    max-width: 100%;
+}
+
+/* .carrossel .livro{ 
+    max-width: 11.1875rem !important;
+} */
+
+.angular{
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: .625rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+
+    width: 100%;
+    max-width: 36.75rem;
+    gap: 1.5rem;
+    min-height: max-content;
+    margin: 1em;
+}
+
+.ultimos_lancamentos .livros{
+    max-width: 745px !important;
+    overflow: hidden;
+}
+
+.angular div span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.angular div h3{
+    color: var(--text-blue);
+    width: 77%;
+    font-size: 1.125rem;
+}
+
+.angular div p{
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    width: 90%;
+}
+
+.angular div a{
+    background-color: var(--cor-secundaria);
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    height: 3rem;
+    width: 10.0625rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angular .esquerda {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.25rem;
+
+}
+
+.angular .esquerda .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.angular .direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.angular .direita{
+    min-width: 10.125rem;
+}
+
+.angular div .icons{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .ultimos_lancamentos{
+        padding-top: 1.25rem;
+    }
+
+    .ultimos_lancamentos h2{
+        font-size: 1.625rem;    
+    }
+
+    .angular{
+        margin-top: 4rem;
+    }
+}
