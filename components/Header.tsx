@@ -71,17 +71,25 @@ const Header = () => {
 
                 </ul>
 
-                <a href="#" className={styles.favoritos}>
-                    <Image src="/imagens/Favoritos.svg" alt="Icone de Favoritos" width={40} height={40}/>
-                </a>
-                
-                <a href="#">
-                    <Image src="/imagens/Compras.svg" alt="Icone de Compras" width={40} height={40}/>
-                </a>
+                <div className={styles.icons}>
+                    <a href="#" className={styles.favoritos}>
+                        <Image src="/imagens/Favoritos.svg" alt="Icone de Favoritos" width={40} height={40}/>
+                    </a>
+                    
+                    <a href="#">
+                        <Image src="/imagens/Compras.svg" alt="Icone de Compras" width={40} height={40}/>
+                        <span>
+                            Minha Sacola
+                        </span>
+                    </a>
+                    <a href="">
+                    <Image src="/imagens/Usuario.svg" alt="Icone de Compras" width={40} height={40}/>
+                        <span>
+                            Meu perfil
+                        </span>
 
-                <a href="">
-                <Image src="/imagens/Usuario.svg" alt="Icone de Compras" width={40} height={40}/>
-                </a>
+                    </a>
+                </div>
 
             </nav>
 

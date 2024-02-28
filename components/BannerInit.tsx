@@ -11,6 +11,7 @@ const BannerInit = () => {
             <p>
                 Encontre em nossa estante o que precisa para seu desenvolvimento!
             </p>
+            <input type="text" />
             <span>
                 <Image src={'/imagens/lupa.png'} width={17.49} height={17.49} alt='Icon Lupa'/>
                 Qual será sua próxima leitura?

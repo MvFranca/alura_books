@@ -46,7 +46,7 @@ const UltimosLancamentos = ({title, itens}:props) => {
                               slidesPerView: 3,
                               spaceBetween: 20
                             },
-                            // when window width is < 768px
+                        // when window width is < 768px
                             0: {
                               slidesPerView: 2,
                               spaceBetween: 20,

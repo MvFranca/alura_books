@@ -6,4 +6,58 @@
     align-items: center;
     padding: 0 1rem;
     margin-top: 0.5rem;
+    /* gap: 4rem; */
+    justify-content: space-between;
 }
+
+.footer .informations, .footer .columnFooter{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer{
+        align-items: start;
+        height: max-content;
+        padding: 3rem 0;
+        max-width: 950px;
+        margin: auto;
+    }
+
+    .footer span{
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+
+    .footer h4{
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color:rgba(133, 133, 133, 1);
+    }
+
+    .footer .columnFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer .columnFooter ul{
+        list-style: none;
+        color: rgba(71, 70, 70, 1);
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer .columnFooter li{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+

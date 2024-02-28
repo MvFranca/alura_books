@@ -89,6 +89,17 @@
     gap: 1rem;
 }
 
+.header nav a{
+    text-decoration: none;   
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.header nav a span{
+    display: none;
+}
+
 .header nav img{
     height: 2rem;
 }
@@ -96,7 +107,14 @@
 .navbar_mobile{
     display: none;
     gap: 1.875rem;
-    color: var(--text-blue);
+    color: #000;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 
@@ -144,4 +162,27 @@
     
 
 
+}
+
+
+@media screen and (min-width: 1350px) {
+    .header{
+        max-width: 1350px;
+    
+    }
+
+    .header nav{
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 3.75rem;
+    }
+
+    .icons{
+        gap: 3rem;
+    }
+
+    .header nav a span{
+        display: block;
+        color: #000;
+    }
 }
